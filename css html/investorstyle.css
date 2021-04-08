@@ -10,6 +10,11 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+.card .card-img-top{
+  width:375px;
+  height:375px;
+}
+
 .logonav img {
   position: absolute;
   width: 200px;
@@ -26,9 +31,16 @@
     margin-top: 0px;
 }
 
+.container-isicard{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container-isicard{
+  text-align: justify;
+}
+
 .cntms{
-  padding: 75px;
-  background-color: #002244;
+  padding: 25px;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
 }
@@ -36,6 +48,19 @@
 .lead {
     font-family: 'Quicksand', sans-serif;
     color:black;
+}
+
+.btnn{
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.btnn:hover {
+  background-color: RoyalBlue;
 }
 
 .input-group{
@@ -51,7 +76,7 @@
 }
 
 .msg2{
-    text-align: center;
+    text-align: justify;
     font-family: 'Quicksand', sans-serif;
 }
 
